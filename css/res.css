@@ -1,0 +1,33 @@
+div{
+    background-color: var(--primary-color);
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+div .logo{
+    zoom: 1.5;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 40PX;
+    font-size: 35px;
+}
+.button{
+   margin-top: -5px;
+   border: 1px solid #fff;
+   color: #333 !important;
+   font-size: 20px;
+   font-weight: 500;
+   zoom: 130%;
+   padding: 10px;
+    transition: all ease-in 0.13;
+}
+.button:hover{
+    color: #fff !important;
+    border: 1px solid #fff;
+}
