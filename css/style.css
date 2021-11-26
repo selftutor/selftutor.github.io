@@ -494,9 +494,9 @@ footer a:hover{
         overflow: visible;
         grid-template-columns:1fr;
         gap: 80px;
-        /* justify-content: center; */
+        justify-content: center;
         justify-items: center;
-        /* align-items: center; */
+        align-items: center;
     }
     .showcase-text{
        margin: 2em 0 -6em 0;
