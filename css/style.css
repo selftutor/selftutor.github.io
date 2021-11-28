@@ -6,11 +6,11 @@
     margin: 0;
     padding: 0;
 }
-html { scroll-behavior: smooth; }
 :root{
     --primary-color: #00a5c2;
     --text-color: rgba(36, 36, 36, 0.856);
 }
+html { scroll-behavior:smooth; }
 /* global */
 body{
     font-family:'poppins', 'lato',Arial, Helvetica, sans-serif;
@@ -148,6 +148,9 @@ header .flexr{
 }
 .showcase-form input:focus{
     outline:none;
+}
+.showcase-form input[type="password"]:focus, .showcase-form input[type="email"]:focus{
+    border-bottom: 2px solid var(--primary-color);
 }
 .forgetpass{
     color: var(--primary-color);
