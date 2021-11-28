@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
 }
+html { scroll-behavior: smooth; }
 :root{
     --primary-color: #00a5c2;
     --text-color: rgba(36, 36, 36, 0.856);
